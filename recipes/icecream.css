@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark grey text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff69b4; /* Pink color for the title */
+    margin-top: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Shadow for the image */
+}
+
+h2 {
+    color: #ff1493; /* Deep pink color for subheadings */
+    margin-left: 20px;
+    font-size: 2em;
+    border-bottom: 2px solid #ff69b4; /* Pink underline for subheadings */
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    background-color: #fff; /* White background for the paragraph */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+    font-size: 1.1em;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+ul li::before {
+    content: "🍦";
+    color: #ff69b4; /* Pink color for bullet points */
+    display: inline-block; 
+    width: 1.5em;
+    margin-left: -1.5em;
+}
+
+ol li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    letter-spacing: 0px;
+    list-style: none;
+}
